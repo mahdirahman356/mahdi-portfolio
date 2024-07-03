@@ -51,7 +51,7 @@ const EmaileFrom = () => {
                 <h3 className="font-bold my-2 md:my-6 flex justify-center text-[#4D869C]"><FiMail className="text-6xl" /></h3>
                 <input type="text" placeholder="Your Name" name="name" className="input bg-gray-700 input-bordered w-full mb-4 rounded-lg" />
                 <input type="text" placeholder="Your Email" name="email" className="input bg-gray-700 input-bordered w-full mb-4 rounded-lg" />
-                <textarea className="textarea bg-gray-700 textarea-lg block w-full textarea-bordered mb-4" name="message" placeholder="Message"></textarea>
+                <textarea className="textarea bg-gray-700 textarea-lg block w-full textarea-bordered mb-4 text-white" name="message" placeholder="Message"></textarea>
                 <button className="btn bg-[#4D869C] w-full rounded-3xl text-white border-none">
                     {loading ? 
                     <span className="loading loading-spinner loading-sm "></span>

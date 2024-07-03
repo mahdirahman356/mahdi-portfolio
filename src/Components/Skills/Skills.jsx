@@ -4,12 +4,12 @@ const Skills = () => {
     return (
         <div className="flex justify-start items-center">
             <div className="px-5 md:px-8 lg:px-20 my-16">
-            <h2 className="text-3xl font-bold ubuntu mb-8 underline">Skills</h2>
+            <h2 className="text-4xl font-bold ubuntu mb-8 underline">Skills</h2>
 
                 <div className="mb-6">
                     <h2 className="text-2xl font-bold ubuntu mb-3">Front-End Development</h2>
                     <p className=" text-gray-500 flex items-center gap-2"><span><LuChevronRightCircle className="text-[#4D869C]" /></span>HTML, CSS, JavaScript</p>
-                    <p className=" text-gray-500 flex items-center gap-2"><span><LuChevronRightCircle className="text-[#4D869C]" /></span>React (including hooks and state management)</p>
+                    <p className=" text-gray-500 flex items-center gap-2"><span><LuChevronRightCircle className="text-[#4D869C]" /></span>React</p>
                     <p className=" text-gray-500 flex items-center gap-2"><span><LuChevronRightCircle className="text-[#4D869C]" /></span>Tailwind CSS</p>
                     <p className=" text-gray-500 flex items-center gap-2"><span><LuChevronRightCircle className="text-[#4D869C]" /></span>Responsive Design</p>
                 </div>

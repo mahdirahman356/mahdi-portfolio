@@ -2,6 +2,9 @@ import { NavLink, Outlet } from "react-router-dom";
 import profile from "../assets/image/mahdi.jpg"
 
 import "../style.css"
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { PiPhoneCall } from "react-icons/pi";
 
 const Main = () => {
     return (
@@ -27,7 +30,7 @@ const Main = () => {
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/">About</NavLink>
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/projects">Projects</NavLink>
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/skills">Skills</NavLink>
-                                            </ul>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -38,6 +41,7 @@ const Main = () => {
                                         <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/projects">Projects</NavLink>
                                         <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/skills">Skills</NavLink>
                                         <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/education">Education</NavLink>
+                                        <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/contact-me">Contact</NavLink>
                                     </ul>
                                 </div>
                                 <div className="navbar-end">
@@ -54,7 +58,24 @@ const Main = () => {
                     </div>
                     <div className="md:w-1/2  flex-1 bg-gray-100">
                         <a className="btn btn-ghost text-xl m-3 font-bold"><span className="text-[#4D869C]">Mahdi's</span> portfolio</a>
-                        <Outlet></Outlet>
+                        <div className="lg:min-h-screen">
+                            <Outlet></Outlet>
+                        </div>
+                        <footer className="footer footer-center bg-gray-200 p-10">
+                            <aside>
+                            <p className="flex items-center gap-1 font-semibold"><PiPhoneCall className="text-xl mt-1"/>01321375186</p>
+                                <p className="flex items-center gap-1 font-semibold"><HiOutlineMail className="text-xl mt-1"/>mahdi.rahman356@gmail.com</p>
+                                <p className="font-semibold">Copyright © ${new Date().getFullYear()} - All right reserved</p>
+                            </aside>
+                            <nav>
+                                <div className="flex flex-wrap gap-8 md:gap-12 ">
+                                    <span className="btn p-3 bg-gray-300 border-none rounded-full hover:bg-slate-600"><a href="https://www.linkedin.com/in/mahdirahman356/"><FaLinkedinIn className="text-2xl text-[#4D869C]" /></a></span>
+                                    <span className="btn p-3 bg-gray-300 border-none rounded-full hover:bg-slate-600"><a href="https://github.com/mahdirahman356/"><FaGithub className="text-2xl text-[#4D869C]" /></a></span>
+                                    <span className="btn p-3 bg-gray-300 border-none rounded-full hover:bg-slate-600"><a href="https://www.facebook.com/mahdirahman356/"><FaFacebookF className="text-2xl text-[#4D869C]" /></a></span>
+                                    <span className="btn p-3 bg-gray-300 border-none rounded-full hover:bg-slate-600"><a href="https://www.instagram.com/mahdirahman356/"><FaInstagram className="text-2xl text-[#4D869C]" /></a></span>
+                                </div>
+                            </nav>
+                        </footer>
                     </div>
                 </div>
             </div>

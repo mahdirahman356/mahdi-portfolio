@@ -21,7 +21,7 @@ const Main = () => {
                                         <div role="button" className="drawer lg:hidden">
                                             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                                             <div className="drawer-content">
-                                                <label htmlFor="my-drawer"><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#4D869C]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                                                <label htmlFor="my-drawer"><svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#4D869C]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                                                 </label>
                                             </div>
                                             <div className="drawer-side">

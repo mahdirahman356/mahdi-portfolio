@@ -1,6 +1,6 @@
 import { BiDownload } from "react-icons/bi";
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import reresume from "../../assets/file/My resume.pdf"
+import reresume from "../../assets/file/Mahdi_Resume_14_Jun_24.pdf"
 import EmaileFrom from "../EmaileFrom/EmaileFrom";
 const ContactMe = () => {
     return (

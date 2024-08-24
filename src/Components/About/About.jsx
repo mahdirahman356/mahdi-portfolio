@@ -1,6 +1,5 @@
-// import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
-import reresume from "../../assets/file/My resume.pdf"
+import reresume from "../../assets/file/Mahdi_Resume_14_Jun_24.pdf"
 const About = () => {
     return (
         <div className="flex justify-center items-center">

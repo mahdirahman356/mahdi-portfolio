@@ -30,6 +30,8 @@ const Main = () => {
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/">About</NavLink>
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/projects">Projects</NavLink>
                                                     <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/skills">Skills</NavLink>
+                                                    <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/education">Education</NavLink>
+                                                    <NavLink className={({ isActive }) => isActive && "text-[#74bdda]"} to="/contact-me">Contact</NavLink>
                                                 </ul>
                                             </div>
                                         </div>
@@ -63,8 +65,8 @@ const Main = () => {
                         </div>
                         <footer className="footer footer-center bg-gray-200 p-10">
                             <aside>
-                            <p className="flex items-center gap-1 font-semibold"><PiPhoneCall className="text-xl mt-1"/>01321375186</p>
-                                <p className="flex items-center gap-1 font-semibold"><HiOutlineMail className="text-xl mt-1"/>mahdi.rahman356@gmail.com</p>
+                                <p className="flex items-center gap-1 font-semibold"><PiPhoneCall className="text-xl mt-1" />01321375186</p>
+                                <p className="flex items-center gap-1 font-semibold"><HiOutlineMail className="text-xl mt-1" />mahdi.rahman356@gmail.com</p>
                                 <p className="font-semibold">Copyright © ${new Date().getFullYear()} - All right reserved</p>
                             </aside>
                             <nav>

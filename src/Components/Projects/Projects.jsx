@@ -19,8 +19,8 @@ const Projects = () => {
             </div>
             <h2 className="text-xl font-bold ubuntu mb-3">Links</h2>
             <div className="">
-            <a href="https://github.com/mahdirahman356/bistro-boss" className=" flex items-start gap-2 text-[#4D869C] underline"><span><LuChevronRightCircle className="text-[#4D869C] mt-1 mb-2"/></span>GitHub Code</a>
-            <a href="https://bistro-boss-2aeff.web.app/" className="flex items-center gap-2 text-[#4D869C] underline"><span><LuChevronRightCircle className="text-[#4D869C] mb-2"/></span>Live Side</a>
+            <a href="https://github.com/mahdirahman356/step-style" className=" flex items-start gap-2 text-[#4D869C] underline"><span><LuChevronRightCircle className="text-[#4D869C] mt-1 mb-2"/></span>GitHub Code</a>
+            <a href="https://stepstyle.web.app/" className="flex items-center gap-2 text-[#4D869C] underline"><span><LuChevronRightCircle className="text-[#4D869C] mb-2"/></span>Live Side</a>
             </div>
            </div>
 
